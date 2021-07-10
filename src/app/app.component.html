@@ -304,8 +304,8 @@
   }
 </style>
 
-<!-- Toolbar -->
-<div class="toolbar" role="banner">
+<!-- Toolbar
+<div class="toolbar">
   <img
     width="40"
     alt="Angular Logo"
@@ -313,5 +313,13 @@
   />
   <span>Welcome, This is Andras Gyongyosi's CV Page</span>
    
+</div> -->
+<div>
+  <mat-tab-group>
+    <mat-tab label="Introduction"> Hi, I'm Andras. </mat-tab>
+    <mat-tab label="Experience"> I have 8 grades at primary school. </mat-tab>
+    <mat-tab label="Contact"> Email: gyongy96@gmail.com </mat-tab>
+  </mat-tab-group>
+</div>
 
 <router-outlet></router-outlet>
