@@ -1,0 +1,24 @@
+.title {
+    font-size: xx-large;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    font-family: Nunito;
+}
+mat-tab-group {
+    align-items: center;
+    margin: 0% 15% 0% 15%;
+    display: block;
+}
+mat-tab-group > .mat-tab-label{
+    min-width: 30% !important;
+}
+.mat-ripple {
+    width: 33% !important;
+}
+.mat-tab-label {
+    width: 33% !important;
+}
+.mat-ink-bar {
+    background-color: green;
+}
