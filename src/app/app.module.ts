@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatTab, MatTabsModule } from '@angular/material/tabs';
+import { MatTabsModule } from '@angular/material/tabs';
+import { MasterLogicComponent } from './master-logic/master-logic.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MasterLogicComponent
   ],
   imports: [
     BrowserModule,
