@@ -14,7 +14,7 @@ import { MasterLogicComponent } from './master-logic/master-logic.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    AppRoutingModule, 
     BrowserAnimationsModule,
     MatTabsModule
   ],
